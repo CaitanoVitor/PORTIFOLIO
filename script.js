@@ -111,7 +111,8 @@ const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
     bolso: $('#modal-bolso'),
     bikcraft: $('#modal-bikcraft'),
     dindin: $('#modal-dindin'),
-    spotify: $('#modal-spotify')
+    spotify: $('#modal-spotify'),
+    forca: $('#modal-forca'),
   };
 
   const FOCUSABLE = 'a[href], area[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
